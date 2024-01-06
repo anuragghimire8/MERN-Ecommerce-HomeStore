@@ -45,6 +45,26 @@ export const createProductController = async (req, res) => {
           .send({ error: "photo is Required and should be less then 1mb" });
     }
 
+    const products = new productModel({ ...req.fields, slug: slugify(name) });
+    if (photo) {
+      products.photo.data = fs.readFileSync(photo.path);
+      products.photo.contentType = photo.type;
+    }
+    await products.save();
+    res.status(201).send({
+      success: true,
+      message: "Product Created Successfully",
+      products,
+    });
+  } catch (error) {
+    console.log(error);
+    res.status(500).send({
+      success: false,
+      error,
+      message: "Error in crearing product",
+    });
+  }
+};
 
 //get all products
 export const getProductController = async (req, res) => {
