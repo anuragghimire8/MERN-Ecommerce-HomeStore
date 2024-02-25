@@ -60,7 +60,7 @@ const Login = () => {
               onChange={(e) => setEmail(e.target.value)}
               className="form-control"
               id="exampleInputEmail1"
-              placeholder="Email "
+              placeholder="Write username "
               required
             />
           </div>

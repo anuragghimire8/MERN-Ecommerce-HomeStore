@@ -36,7 +36,7 @@ const Contact = () => {
             Any Query and Information realated to the Book can directly contact us.Details are listed below:
           </p>
           <p className="mt-3">
-            <BiMailSend /> : <a href="mailto:help@epustakalyinfo.com" style={{textDecoration:"none"}}>www.help@epustakalyinfo.com</a>
+            <BiMailSend /> : <a href="mailto:help@epustakalyinfo.com" style={{textDecoration:"none"}}>www.help@homesStore.com</a>
           </p>
           <p className="mt-3">
             <BiPhoneCall /> : <a href="tel:+977056582894" style={{textDecoration:"none"}}> 056-582894</a>

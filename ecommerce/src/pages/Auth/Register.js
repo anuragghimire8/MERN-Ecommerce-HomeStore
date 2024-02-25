@@ -100,7 +100,7 @@ if (!password || !passwordRegex.test(password)) {
             }}
             className={`form-control ${emailError ? "is-invalid" : ""}`}
             id="exampleInputEmail1"
-            placeholder="Enter Your Email"
+            placeholder="Enter Your Username"
             required
           />
           {emailError && <div className="invalid-feedback">{emailError}</div>}

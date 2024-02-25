@@ -45,10 +45,10 @@ ManyBooks <a href="https://manybooks.net" target="_blank">(https://manybooks.net
 Librivox <a href="https://librivox.org" target="_blank">(https://librivox.org)</a>: Librivox offers free audiobooks of public domain works. Volunteers record audiobook versions of books that are then made available for free.
 </p>
 <p className="text-justify mt-2"style={{fontFamily: "Arial" , fontSize:"12px",marginTop:"40px"}}>
-Internet Archive <a href="https://archive.org" target="_blank">(https://archive.org)</a>: The Internet Archive provides access to a wide range of digital content, including books, movies, music, and more. You can find both free and paid e-books on this platform.
+Internet Archive <a href="https://archive.org" target="_blank">(https://archive.org)</a>: The Internet Archive provides access to a wide range of digital content, including products, movies, music, and more. You can find both free and paid e-books on this platform.
 </p>
 <p className="text-justify mt-2"style={{fontFamily: "Arial" , fontSize:"12px",marginTop:"40px"}}>
-Remember to verify the legality and copyright status of any e-books you download, and always respect the authors' rights by obtaining their works from authorized sources.
+Remember to verify the legality and copyright status of any products you download, and always respect the authors' rights by obtaining their works from authorized sources.
           </p>
         
         </div>
