@@ -1,4 +1,4 @@
-quick sort Algorithm
+// quick sort Algorithm
 
 const quickSort = (arr) => {
   if (arr.length <= 1) {
